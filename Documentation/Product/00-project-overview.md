@@ -11,6 +11,7 @@
 - Unity adapter and UI layers for engine integration.
 - CI pipeline for EditMode tests and Windows build validation.
 - Game design pillars locked (see Product/01-game-pillars.md).
+- Lap time performance philosophy locked (see Product/02-performance-philosophy.md).
 
 ## Non-Goals (Current Phase)
 
