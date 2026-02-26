@@ -23,6 +23,12 @@
 - `Documentation/`: this documentation system.
 - `UnityProject/`: Unity project source and settings.
 
+## Collaboration Model
+
+- Repository visibility is public.
+- `main` is a protected branch.
+- Code changes are expected to land through feature branches and pull requests.
+
 ## Definitions
 
 - `Engine-free`: assembly has `noEngineReferences: true`, cannot use `UnityEngine` APIs.

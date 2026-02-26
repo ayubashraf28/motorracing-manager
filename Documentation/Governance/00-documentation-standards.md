@@ -10,6 +10,7 @@ Keep documentation continuously accurate, discoverable, and implementation-align
 2. Architectural decisions must be captured in `ADR/` when trade-offs are involved.
 3. Avoid speculative docs; describe implemented behavior and explicitly mark planned behavior.
 4. Prefer concise sections with stable headings over long narrative prose.
+5. Changes to branch workflow/protection must update `Development/` and `Operations/` documentation in the same PR.
 
 ## Ownership
 

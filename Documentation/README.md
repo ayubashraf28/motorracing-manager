@@ -20,6 +20,12 @@ This folder is the long-term source of truth for understanding, building, and op
 - `Templates/`: reusable templates for ADRs and feature specs.
 - `Product/`: project goals, scope, and shared terminology.
 
+## Repository Workflow Baseline
+
+- `main` is protected and is merge-only through pull requests.
+- Required status check on `main`: `test-and-build-windows`.
+- Repository visibility is currently public.
+
 ## Maintenance Rule
 
 Documentation is part of the product. Every functional or architectural change should update the relevant files in this folder in the same PR.

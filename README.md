@@ -49,3 +49,9 @@ GitHub Actions workflow requires repository secret:
 - Decision records: `Documentation/ADR/`
 
 Documentation is maintained continuously and should be updated in the same PR as related code changes.
+
+## Branch Workflow
+
+- `main` is protected.
+- Create `feature/*` branches for all work.
+- Merge via pull request after required check `test-and-build-windows` passes.

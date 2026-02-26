@@ -5,8 +5,14 @@
 1. Create a feature branch from `main`.
 2. Implement code and tests.
 3. Update related docs in `Documentation/`.
-4. Open PR with architecture/testing notes.
-5. Merge only after CI passes.
+4. Push feature branch and open PR with architecture/testing notes.
+5. Merge only after required CI checks pass.
+
+## Protected Branch Policy
+
+- Direct pushes to `main` are not allowed.
+- Work is expected to flow as `feature/* -> PR -> main`.
+- Required status check for merge: `test-and-build-windows`.
 
 ## Mandatory Documentation Rule
 
@@ -24,6 +30,7 @@ Every PR must update documentation when it changes one of the following:
 - Relevant architecture/development/operations file is updated.
 - New decision with trade-off is captured in `ADR/`.
 - Terminology stays consistent with `Product` docs.
+- If repo workflow/governance changed, update `Operations/00-ci-cd.md` and this file.
 
 ## Change Note Format
 
