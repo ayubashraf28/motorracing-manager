@@ -6,13 +6,14 @@
 2. Implement code and tests.
 3. Update related docs in `Documentation/`.
 4. Push feature branch and open PR with architecture/testing notes.
-5. Merge only after required CI checks pass.
+5. Merge after required policy checks pass (PR policy always; CI-gating policy per current branch protection state).
 
 ## Protected Branch Policy
 
 - Direct pushes to `main` are not allowed.
 - Work is expected to flow as `feature/* -> PR -> main`.
-- Required status check for merge: `test-and-build-windows`.
+- Required status check for merge: temporarily optional while Unity activation is being fixed.
+- Restoration condition: re-enable required `test-and-build-windows` after activation is validated by a successful CI run.
 
 ## Mandatory Documentation Rule
 

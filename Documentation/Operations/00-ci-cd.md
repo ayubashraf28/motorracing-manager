@@ -22,11 +22,17 @@
 ## Branch Protection Baseline
 
 - `main` is protected and merge-only via pull requests.
-- Required status check: `test-and-build-windows`.
+- Required status check: temporarily disabled (as of February 26, 2026) due Unity activation blocker in CI.
 - Admin enforcement: enabled.
 - Force-push: disabled.
 - Branch deletion: disabled.
 - Conversation resolution before merge: enabled.
+
+## Temporary CI Exception
+
+- Unity CI still runs on PR/push and remains advisory while activation is being corrected.
+- Condition to restore strict gating: a validated GameCI activation strategy and at least one successful `test-and-build-windows` run on an active PR branch.
+- Once validated, `test-and-build-windows` must be re-added as a required status check on `main`.
 
 ## Operational Notes
 
