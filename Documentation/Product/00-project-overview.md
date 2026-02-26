@@ -10,6 +10,7 @@
 - Engine-free business layers for deterministic, testable logic.
 - Unity adapter and UI layers for engine integration.
 - CI pipeline for EditMode tests and Windows build validation.
+- Game design pillars locked (see Product/01-game-pillars.md).
 
 ## Non-Goals (Current Phase)
 
