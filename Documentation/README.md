@@ -23,8 +23,9 @@ This folder is the long-term source of truth for understanding, building, and op
 ## Repository Workflow Baseline
 
 - `main` is protected and is merge-only through pull requests.
-- Required status check on `main`: `test-and-build-windows`.
+- Required status check on `main`: temporarily optional while Unity activation is remediated.
 - Repository visibility is currently public.
+- Required check to restore after remediation: `test-and-build-windows`.
 
 ## Maintenance Rule
 
