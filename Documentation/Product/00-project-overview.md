@@ -10,6 +10,10 @@
 - Engine-free business layers for deterministic, testable logic.
 - Unity adapter and UI layers for engine integration.
 - CI pipeline for EditMode tests and Windows build validation.
+- Game design pillars locked (see Product/01-game-pillars.md).
+- Lap time performance philosophy locked (see Product/02-performance-philosophy.md).
+- Core game loop specified (see Product/03-core-loop-specification.md).
+- Screen flow map locked (see Product/04-screen-flow-map.md).
 
 ## Non-Goals (Current Phase)
 
