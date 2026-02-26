@@ -1,0 +1,29 @@
+{
+    "name":  "MotorracingManager.Sim.Tests",
+    "rootNamespace":  "MotorracingManager",
+    "references":  [
+                       "MotorracingManager.Sim"
+                   ],
+    "optionalUnityReferences":  [
+                                    "TestAssemblies"
+                                ],
+    "includePlatforms":  [
+
+                         ],
+    "excludePlatforms":  [
+
+                         ],
+    "allowUnsafeCode":  false,
+    "overrideReferences":  false,
+    "precompiledReferences":  [
+
+                              ],
+    "autoReferenced":  false,
+    "defineConstraints":  [
+
+                          ],
+    "versionDefines":  [
+
+                       ],
+    "noEngineReferences":  true
+}

@@ -1,0 +1,29 @@
+{
+    "name":  "MotorracingManager.Domain.Tests",
+    "rootNamespace":  "MotorracingManager",
+    "references":  [
+                       "MotorracingManager.Domain"
+                   ],
+    "optionalUnityReferences":  [
+                                    "TestAssemblies"
+                                ],
+    "includePlatforms":  [
+
+                         ],
+    "excludePlatforms":  [
+
+                         ],
+    "allowUnsafeCode":  false,
+    "overrideReferences":  false,
+    "precompiledReferences":  [
+
+                              ],
+    "autoReferenced":  false,
+    "defineConstraints":  [
+
+                          ],
+    "versionDefines":  [
+
+                       ],
+    "noEngineReferences":  true
+}

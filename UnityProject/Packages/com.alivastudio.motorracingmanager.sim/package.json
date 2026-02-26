@@ -1,0 +1,14 @@
+{
+    "name":  "com.alivastudio.motorracingmanager.sim",
+    "version":  "0.1.0",
+    "displayName":  "MotorracingManager Simulation",
+    "description":  "Simulation rules: progression, race sim, economy. No UnityEngine.",
+    "unity":  "6000.3",
+    "author":  {
+                   "name":  "Aliva Studio"
+               },
+    "dependencies":  {
+                         "com.alivastudio.motorracingmanager.core":  "0.1.0",
+                         "com.alivastudio.motorracingmanager.domain":  "0.1.0"
+                     }
+}

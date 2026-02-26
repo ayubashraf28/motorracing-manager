@@ -1,0 +1,29 @@
+{
+    "name":  "MotorracingManager.Persistence",
+    "rootNamespace":  "MotorracingManager",
+    "references":  [
+                       "MotorracingManager.Core",
+                       "MotorracingManager.Domain",
+                       "MotorracingManager.Sim",
+                       "MotorracingManager.App"
+                   ],
+    "includePlatforms":  [
+
+                         ],
+    "excludePlatforms":  [
+
+                         ],
+    "allowUnsafeCode":  false,
+    "overrideReferences":  false,
+    "precompiledReferences":  [
+
+                              ],
+    "autoReferenced":  true,
+    "defineConstraints":  [
+
+                          ],
+    "versionDefines":  [
+
+                       ],
+    "noEngineReferences":  true
+}

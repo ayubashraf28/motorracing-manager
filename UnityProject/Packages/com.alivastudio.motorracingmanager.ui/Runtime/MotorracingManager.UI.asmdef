@@ -1,0 +1,28 @@
+{
+    "name":  "MotorracingManager.UI",
+    "rootNamespace":  "MotorracingManager",
+    "references":  [
+                       "MotorracingManager.Domain",
+                       "MotorracingManager.App",
+                       "MotorracingManager.Unity"
+                   ],
+    "includePlatforms":  [
+
+                         ],
+    "excludePlatforms":  [
+
+                         ],
+    "allowUnsafeCode":  false,
+    "overrideReferences":  false,
+    "precompiledReferences":  [
+
+                              ],
+    "autoReferenced":  true,
+    "defineConstraints":  [
+
+                          ],
+    "versionDefines":  [
+
+                       ],
+    "noEngineReferences":  false
+}

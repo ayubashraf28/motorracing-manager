@@ -1,0 +1,14 @@
+{
+    "name":  "com.alivastudio.motorracingmanager.unity",
+    "version":  "0.1.0",
+    "displayName":  "MotorracingManager Unity Adapters",
+    "description":  "Unity MonoBehaviour adapters and composition root.",
+    "unity":  "6000.3",
+    "author":  {
+                   "name":  "Aliva Studio"
+               },
+    "dependencies":  {
+                         "com.alivastudio.motorracingmanager.persistence":  "0.1.0",
+                         "com.alivastudio.motorracingmanager.app":  "0.1.0"
+                     }
+}
