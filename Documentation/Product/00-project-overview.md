@@ -12,6 +12,7 @@
 - CI pipeline for EditMode tests and Windows build validation.
 - Game design pillars locked (see Product/01-game-pillars.md).
 - Lap time performance philosophy locked (see Product/02-performance-philosophy.md).
+- Core game loop specified (see Product/03-core-loop-specification.md).
 
 ## Non-Goals (Current Phase)
 
