@@ -1,0 +1,16 @@
+{
+    "name":  "com.alivastudio.motorracingmanager.persistence",
+    "version":  "0.1.0",
+    "displayName":  "MotorracingManager Persistence",
+    "description":  "Save/load, versioning, migrations. Kept engine-free where possible.",
+    "unity":  "6000.3",
+    "author":  {
+                   "name":  "Aliva Studio"
+               },
+    "dependencies":  {
+                         "com.alivastudio.motorracingmanager.sim":  "0.1.0",
+                         "com.alivastudio.motorracingmanager.domain":  "0.1.0",
+                         "com.alivastudio.motorracingmanager.core":  "0.1.0",
+                         "com.alivastudio.motorracingmanager.app":  "0.1.0"
+                     }
+}

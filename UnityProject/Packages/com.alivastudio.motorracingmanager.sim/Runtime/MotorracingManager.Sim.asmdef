@@ -1,0 +1,27 @@
+{
+    "name":  "MotorracingManager.Sim",
+    "rootNamespace":  "MotorracingManager",
+    "references":  [
+                       "MotorracingManager.Core",
+                       "MotorracingManager.Domain"
+                   ],
+    "includePlatforms":  [
+
+                         ],
+    "excludePlatforms":  [
+
+                         ],
+    "allowUnsafeCode":  false,
+    "overrideReferences":  false,
+    "precompiledReferences":  [
+
+                              ],
+    "autoReferenced":  true,
+    "defineConstraints":  [
+
+                          ],
+    "versionDefines":  [
+
+                       ],
+    "noEngineReferences":  true
+}
