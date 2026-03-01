@@ -9,7 +9,7 @@
                                     "TestAssemblies"
                                 ],
     "includePlatforms":  [
-
+                             "Editor"
                          ],
     "excludePlatforms":  [
 
@@ -21,7 +21,7 @@
                               ],
     "autoReferenced":  false,
     "defineConstraints":  [
-
+                              "UNITY_INCLUDE_TESTS"
                           ],
     "versionDefines":  [
 
