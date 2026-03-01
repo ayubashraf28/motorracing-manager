@@ -2,7 +2,8 @@
     "name":  "MotorracingManager.Domain.Tests",
     "rootNamespace":  "MotorracingManager",
     "references":  [
-                       "MotorracingManager.Domain"
+                       "MotorracingManager.Domain",
+                       "MotorracingManager.Core"
                    ],
     "optionalUnityReferences":  [
                                     "TestAssemblies"

@@ -14,6 +14,7 @@
 - Lap time performance philosophy locked (see Product/02-performance-philosophy.md).
 - Core game loop specified (see Product/03-core-loop-specification.md).
 - Screen flow map locked (see Product/04-screen-flow-map.md).
+- Immutable definition-type architecture locked (see Product/05-definition-types.md).
 
 ## Non-Goals (Current Phase)
 

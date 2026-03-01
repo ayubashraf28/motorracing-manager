@@ -9,6 +9,7 @@ This folder is the long-term source of truth for understanding, building, and op
 1c. Read `Product/02-performance-philosophy.md` for the lap time model.
 1d. Read `Product/03-core-loop-specification.md` for the game loop and tick order.
 1e. Read `Product/04-screen-flow-map.md` for screen navigation and UI structure.
+1f. Read `Product/05-definition-types.md` for immutable definition pack architecture.
 2. Read `Architecture/00-system-overview.md` and `Architecture/01-layering-and-rules.md`.
 3. Review `Development/00-getting-started.md` for local setup.
 4. Use `Operations/00-ci-cd.md` for pipeline and deployment behavior.

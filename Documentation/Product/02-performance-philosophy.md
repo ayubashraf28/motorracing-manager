@@ -147,7 +147,7 @@ Additional required rules:
 - Purpose: Models performance evolution across tire life phases.
 - Input: Compound definition, laps since stop, and phase thresholds per compound.
 - Output: Millisecond delta by tire life phase.
-- Scalar file: `tyre_compound_defs.json`.
+- Scalar source: `tyre_compounds.json` immutable definition records.
 - Range: Scalar-defined illustrative range from external files, for example `-200ms` to `+2000ms`.
 - Update frequency: Recomputed every lap.
 - Player visibility: Must appear as phase-specific labels such as `Tyre Phase: Optimal (-80ms, scalar-defined illustrative value)`.
@@ -212,7 +212,7 @@ Additional required rules:
 - Purpose: Models weather grip loss and tire-compound suitability mismatch.
 - Input: Current weather state and compound suitability matrix.
 - Output: Additive millisecond penalty combining base weather effect and compound mismatch effect.
-- Scalar file: `weather_scalars.json`.
+- Scalar source: `weather.json` immutable definition records.
 - Range: Scalar-defined illustrative range from external files, for example `0ms` to `+8000ms`.
 - Update frequency: Recomputed every lap as weather evolves.
 - Player visibility: Must show both weather penalty and compound-match penalty lines with scalar-defined illustrative values.
@@ -266,11 +266,11 @@ Required files and illustrative schema shapes (all numeric values are scalar-def
 | `driver_pace_scalars.json` | Rating-to-time conversion | `{ "baseline_rating": 70, "ms_per_rating_point": 8 }` |
 | `setup_scalars.json` | Setup match percentage to penalty | `{ "penalties": [{ "match_pct": 100, "ms": 0 }, { "match_pct": 0, "ms": 600 }] }` |
 | `knowledge_scalars.json` | Knowledge percentage effects | `{ "max_penalty_ms": 300, "retention_pct_per_season": 40 }` |
-| `tyre_compound_defs.json` | Compound phase thresholds and degradation behavior | `{ "soft": { "fresh_laps": 3, "optimal_laps": 8, "worn_laps": 5, "cliff_ms_per_lap": 400 } }` |
+| `tyre_compounds.json` | Compound phase thresholds and degradation behavior | `{ "id": "soft", "freshLaps": 3, "optimalLaps": 8, "wornLaps": 5, "cliffMsPerLap": 400 }` |
 | `tyre_temperature_scalars.json` | Temperature delta to penalty | `{ "ms_per_degree_outside_window": 25 }` |
 | `fuel_scalars.json` | Fuel mass to time penalty | `{ "ms_per_kg": 8 }` |
 | `engine_mode_defs.json` | Mode pace and reliability multipliers | `{ "push": { "ms": -180, "reliability_mult": 1.5 }, "conserve": { "ms": 100, "reliability_mult": 0.7 } }` |
-| `weather_scalars.json` | Weather base penalty and compound suitability matrix | `{ "wet": { "base_penalty_ms": 3000, "compound_match": { "wet": 0, "inter": 800, "soft": 6000 } } }` |
+| `weather.json` | Weather base penalty and compound suitability matrix | `{ "id": "wet", "basePenaltyMs": 3000, "compoundMatchPenaltyMs": { "wet": 0, "inter": 800, "soft": 6000 } }` |
 | `drafting_scalars.json` | Gap-to-benefit and DRS bonus | `{ "max_benefit_ms": 300, "threshold_gap_ms": 2000, "drs_bonus_ms": 100 }` |
 | `variance_scalars.json` | Base variance and consistency attenuation | `{ "base_range_ms": 150, "consistency_attenuation": 0.5 }` |
 
